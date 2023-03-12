@@ -135,5 +135,12 @@ namespace EasyRH
                 }
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Home inicio = new Home();
+            inicio.Show();
+            this.Hide();
+        }
     }
 }

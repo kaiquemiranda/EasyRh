@@ -30,5 +30,24 @@ namespace EasyRH
             log.Show();
             this.Hide();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Info inf = new Info();
+            inf.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Salario sal = new Salario();
+            sal.Show();
+            this.Hide();
+        }
     }
 }

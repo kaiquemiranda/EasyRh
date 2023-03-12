@@ -61,14 +61,16 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ColabDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.ColabDGV);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
@@ -93,12 +95,12 @@
             this.panel1.ForeColor = System.Drawing.Color.SteelBlue;
             this.panel1.Location = new System.Drawing.Point(1, 72);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(886, 436);
+            this.panel1.Size = new System.Drawing.Size(886, 446);
             this.panel1.TabIndex = 16;
             // 
             // ColabDGV
             // 
-            this.ColabDGV.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.ColabDGV.BackgroundColor = System.Drawing.Color.Silver;
             this.ColabDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ColabDGV.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -136,14 +138,18 @@
             this.ColabDGV.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.ColabDGV.RowTemplate.Height = 25;
             this.ColabDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ColabDGV.Size = new System.Drawing.Size(432, 436);
+            this.ColabDGV.Size = new System.Drawing.Size(432, 443);
             this.ColabDGV.StandardTab = true;
             this.ColabDGV.TabIndex = 27;
             this.ColabDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ColabDGV_CellContentClick);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.SteelBlue;
+            this.button4.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.Gainsboro;
@@ -157,7 +163,11 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.SteelBlue;
+            this.button3.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.Gainsboro;
@@ -171,7 +181,11 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.SteelBlue;
+            this.button2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.Gainsboro;
@@ -185,7 +199,11 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.Gainsboro;
@@ -212,9 +230,9 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Gainsboro;
+            this.label10.BackColor = System.Drawing.Color.Silver;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label10.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label10.Location = new System.Drawing.Point(231, 122);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(89, 25);
@@ -239,9 +257,9 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Gainsboro;
+            this.label9.BackColor = System.Drawing.Color.Silver;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label9.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label9.Location = new System.Drawing.Point(231, 249);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(104, 25);
@@ -250,18 +268,17 @@
             // 
             // Colab_Telefone
             // 
-            this.Colab_Telefone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Colab_Telefone.Location = new System.Drawing.Point(231, 277);
             this.Colab_Telefone.Name = "Colab_Telefone";
-            this.Colab_Telefone.Size = new System.Drawing.Size(170, 16);
+            this.Colab_Telefone.Size = new System.Drawing.Size(170, 23);
             this.Colab_Telefone.TabIndex = 18;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Gainsboro;
+            this.label8.BackColor = System.Drawing.Color.Silver;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label8.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label8.Location = new System.Drawing.Point(33, 249);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(116, 25);
@@ -280,9 +297,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Gainsboro;
+            this.label7.BackColor = System.Drawing.Color.Silver;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label7.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label7.Location = new System.Drawing.Point(231, 184);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(135, 25);
@@ -307,9 +324,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Gainsboro;
+            this.label5.BackColor = System.Drawing.Color.Silver;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label5.Location = new System.Drawing.Point(26, 184);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(90, 25);
@@ -319,9 +336,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Gainsboro;
+            this.label4.BackColor = System.Drawing.Color.Silver;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label4.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label4.Location = new System.Drawing.Point(29, 122);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(112, 25);
@@ -330,18 +347,17 @@
             // 
             // Colab_Endereco
             // 
-            this.Colab_Endereco.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Colab_Endereco.Location = new System.Drawing.Point(26, 150);
             this.Colab_Endereco.Name = "Colab_Endereco";
-            this.Colab_Endereco.Size = new System.Drawing.Size(166, 16);
+            this.Colab_Endereco.Size = new System.Drawing.Size(166, 23);
             this.Colab_Endereco.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Gainsboro;
+            this.label2.BackColor = System.Drawing.Color.Silver;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label2.Location = new System.Drawing.Point(231, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 25);
@@ -350,18 +366,17 @@
             // 
             // Colab_Nome
             // 
-            this.Colab_Nome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Colab_Nome.Location = new System.Drawing.Point(231, 90);
             this.Colab_Nome.Name = "Colab_Nome";
-            this.Colab_Nome.Size = new System.Drawing.Size(170, 16);
+            this.Colab_Nome.Size = new System.Drawing.Size(170, 23);
             this.Colab_Nome.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gainsboro;
+            this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label1.Location = new System.Drawing.Point(29, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 25);
@@ -370,17 +385,16 @@
             // 
             // Colab_ID
             // 
-            this.Colab_ID.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Colab_ID.Location = new System.Drawing.Point(26, 90);
             this.Colab_ID.Name = "Colab_ID";
-            this.Colab_ID.Size = new System.Drawing.Size(166, 16);
+            this.Colab_ID.Size = new System.Drawing.Size(166, 23);
             this.Colab_ID.TabIndex = 0;
             this.Colab_ID.Tag = "Colab_ID";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.SteelBlue;
+            this.label6.BackColor = System.Drawing.Color.RoyalBlue;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.Gainsboro;
             this.label6.Location = new System.Drawing.Point(136, 46);
@@ -402,7 +416,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.SteelBlue;
+            this.label3.BackColor = System.Drawing.Color.RoyalBlue;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Gainsboro;
             this.label3.Location = new System.Drawing.Point(136, 16);
@@ -416,7 +430,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label11.Location = new System.Drawing.Point(700, 521);
+            this.label11.Location = new System.Drawing.Point(700, 530);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(31, 24);
             this.label11.TabIndex = 22;
@@ -427,7 +441,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label12.Location = new System.Drawing.Point(737, 524);
+            this.label12.Location = new System.Drawing.Point(737, 533);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(131, 20);
             this.label12.TabIndex = 21;
@@ -436,7 +450,8 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.SteelBlue;
+            this.label13.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.Color.Gainsboro;
             this.label13.Location = new System.Drawing.Point(847, 9);
@@ -446,12 +461,25 @@
             this.label13.Text = "X";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(423, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(113, 57);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 24;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Colaborador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(880, 553);
+            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.ClientSize = new System.Drawing.Size(880, 562);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
@@ -459,6 +487,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.RoyalBlue;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Colaborador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -468,6 +497,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ColabDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -503,5 +533,6 @@
         private Label label11;
         private Label label12;
         private Label label13;
+        private PictureBox pictureBox1;
     }
 }

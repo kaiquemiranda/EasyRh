@@ -45,7 +45,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gainsboro;
+            this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
             this.label1.Location = new System.Drawing.Point(102, 21);
@@ -67,18 +67,19 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.textBox1.Location = new System.Drawing.Point(317, 118);
+            this.textBox1.Location = new System.Drawing.Point(304, 118);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.Size = new System.Drawing.Size(113, 16);
             this.textBox1.TabIndex = 4;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Gainsboro;
+            this.label3.BackColor = System.Drawing.Color.Silver;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.SteelBlue;
             this.label3.Location = new System.Drawing.Point(185, 118);
@@ -90,7 +91,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Gainsboro;
+            this.label4.BackColor = System.Drawing.Color.Silver;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
             this.label4.Location = new System.Drawing.Point(197, 163);
@@ -102,6 +103,9 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
@@ -116,6 +120,10 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.SteelBlue;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
@@ -129,12 +137,12 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox2.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.textBox2.Location = new System.Drawing.Point(317, 163);
+            this.textBox2.Location = new System.Drawing.Point(304, 163);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
+            this.textBox2.Size = new System.Drawing.Size(113, 16);
             this.textBox2.TabIndex = 10;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -152,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(453, 268);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox2);

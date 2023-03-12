@@ -54,7 +54,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(288, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(288, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(137, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -73,6 +73,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(625, 0);
             this.pictureBox3.Name = "pictureBox3";
@@ -106,6 +107,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(306, 86);
             this.pictureBox4.Name = "pictureBox4";
@@ -113,13 +115,15 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(56, 72);
+            this.pictureBox5.Location = new System.Drawing.Point(68, 73);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(181, 172);
+            this.pictureBox5.Size = new System.Drawing.Size(181, 170);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
@@ -127,25 +131,28 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(515, 93);
+            this.pictureBox6.Location = new System.Drawing.Point(515, 86);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(139, 115);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Gainsboro;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label3.Location = new System.Drawing.Point(56, 214);
+            this.label3.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label3.Location = new System.Drawing.Point(68, 214);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(169, 20);
             this.label3.TabIndex = 19;
             this.label3.Text = "COLABORADORES";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel1
             // 
@@ -167,7 +174,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Gainsboro;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label4.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label4.Location = new System.Drawing.Point(243, 10);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(256, 20);
@@ -179,7 +186,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Gainsboro;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label2.Location = new System.Drawing.Point(526, 214);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 20);
@@ -191,18 +198,18 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Gainsboro;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label1.Location = new System.Drawing.Point(306, 214);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 20);
+            this.label1.Size = new System.Drawing.Size(139, 20);
             this.label1.TabIndex = 20;
-            this.label1.Text = "CONSULTAR";
+            this.label1.Text = "INFORMAÇÕES";
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(742, 422);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);

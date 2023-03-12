@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\EasyRH.exe
+C:\Users\User\Desktop\EasyRH.dll
+C:\Users\User\Desktop\EasyRH.deps.json
+C:\Users\User\Desktop\EasyRH.runtimeconfig.json
+C:\Users\User\Desktop\EasyRH.pdb
+C:\Users\User\Desktop\System.Data.SqlClient.dll
+C:\Users\User\Desktop\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Desktop\runtimes\win-x64\native\sni.dll
+C:\Users\User\Desktop\runtimes\win-x86\native\sni.dll
+C:\Users\User\Desktop\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Desktop\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
