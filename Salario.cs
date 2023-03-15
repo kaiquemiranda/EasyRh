@@ -80,6 +80,35 @@ namespace EasyRH
             buscarDadosColab();
         }
         double baseDia, baseTotal, imposto, salReal;
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString("\n======DEMONSTRATIVO=====\n===========DE============\n=======PAGAMENTO========\n==========================", new Font("Century Gothic", 30, FontStyle.Bold), Brushes.Black, new Point(80));
+            e.Graphics.DrawString("\nID Funcionario:_____" + id_input.Text, new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(40, 250));
+            e.Graphics.DrawString("\nNome:____________" + nome_input.Text, new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(40, 350));
+            e.Graphics.DrawString("\nFução:____________" + funcao_input.Text, new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(40, 450));
+            e.Graphics.DrawString("\nDias trabalhados:____" + trabalhados_input.Text, new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(40, 550));
+            e.Graphics.DrawString("\nSalario bruto:_______R$ " + baseTotal+",00", new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(40, 650));
+            e.Graphics.DrawString("\nImposto de renda:___R$" + imposto+",00", new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(40, 750));
+            e.Graphics.DrawString("\nSalario liquido:______R$" + salReal+",00", new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(40, 850));
+            e.Graphics.DrawString("\nAssinatura do colaborador__________________", new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(20, 950));
+            e.Graphics.DrawString("\n=====EASY RECURSOS HUMANOS LTDA=====", new Font("Century Gothic", 25, FontStyle.Regular), Brushes.Black, new Point(20, 1050));
+ 
+        }
+
+        private void printPreviewDialog1_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+            {
+                printDocument1.Print();
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (funcao_input.Text == "")
